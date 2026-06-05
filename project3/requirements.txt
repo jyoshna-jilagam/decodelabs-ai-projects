@@ -1,0 +1,3 @@
+# Project 3 — AI Recommendation Logic
+# No external dependencies required
+# Runs on Python 3.8+ with math module (stdlib) only

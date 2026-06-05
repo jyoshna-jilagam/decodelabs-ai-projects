@@ -1,0 +1,3 @@
+# Project 1 — Rule-Based AI Chatbot
+# No external dependencies required
+# Runs on Python 3.8+ with stdlib only

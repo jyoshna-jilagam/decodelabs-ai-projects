@@ -1,0 +1,60 @@
+========================================================
+  GITHUB PUSH GUIDE – DecodeLabs AI Projects (All 4)
+========================================================
+
+STEP 1: Create GitHub Repository
+─────────────────────────────────
+1. Go to https://github.com/new
+2. Repository name : decodelabs-ai-projects
+3. Description     : DecodeLabs AI Internship – Batch 2026 | P1 Chatbot | P2 KNN | P3 Recommender | P4 CNN
+4. Visibility      : Public
+5. ❌ Do NOT check "Add README" (we have our own)
+6. Click "Create repository"
+
+STEP 2: Extract this ZIP
+─────────────────────────
+Unzip → you get folder: decodelabs-ai-projects/
+
+STEP 3: Open terminal inside that folder and run:
+──────────────────────────────────────────────────
+  git init
+  git add .
+  git commit -m "feat: Add all 4 AI projects - DecodeLabs Batch 2026"
+  git branch -M main
+  git remote add origin https://github.com/<YOUR-USERNAME>/decodelabs-ai-projects.git
+  git push -u origin main
+
+Replace <YOUR-USERNAME> with your GitHub username.
+
+STEP 4: Verify on GitHub
+──────────────────────────
+Visit: https://github.com/<YOUR-USERNAME>/decodelabs-ai-projects
+
+✅ README renders with 4-project table
+✅ All 4 project folders visible
+✅ screenshots/results.png auto-renders in P2 and P4 READMEs
+✅ Code files present in each folder
+
+========================================================
+  REPO STRUCTURE AFTER PUSH
+========================================================
+
+decodelabs-ai-projects/
+├── project1/  chatbot.py + README.md + requirements.txt
+├── project2/  knn_classifier.py + requirements.txt + README.md + screenshots/
+├── project3/  recommender.py + README.md + requirements.txt
+├── project4/  cnn_classifier.py + requirements.txt + README.md + screenshots/
+├── docs/      architecture.md
+├── .gitignore
+└── README.md
+
+========================================================
+  SUBMISSION CHECKLIST
+========================================================
+✅ Code is working properly
+✅ Project files complete (code + requirements + README)
+✅ GitHub Repository created
+✅ README file added (root + per project)
+✅ Screenshots/Documentation prepared
+✅ Final project tested properly
+========================================================
